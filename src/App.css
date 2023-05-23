@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*imported fonts*/
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: local('PoppinsRegular'), url(./assets/fonts/PoppinsRegular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsItalic';
+    src: local('PoppinsItalic'), url(./assets/fonts/PoppinsItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsBoldItalic';
+    src: local('PoppinsBoldItalic'), url(./assets/fonts/PoppinsBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsExtraBoldItalic';
+    src: local('PoppinsExtraBoldItalic'), url(./assets/fonts/PoppinsExtraBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+    src: local('PoppinsBold'), url(./assets/fonts/PoppinsBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsExtraBold';
+    src: local('PoppinsExtraBold'), url(./assets/fonts/PoppinsExtraBold.ttf) format('truetype');
+}
+
+.poppins-regular {
+  font-family:'PoppinsRegular';
+}
+
+.poppins-italic {
+  font-family:'PoppinsItalic';
+}
+
+.poppins-bold-italic {
+  font-family:'PoppinsBoldItalic';
+}
+
+.poppins-extra-bold-italic {
+  font-family:'PoppinsExtraBoldItalic';
+}
+
+.poppins-bold {
+  font-family: 'PoppinsBold'
+}
+
+.poppins-extra-bold {
+  font-family:'PoppinsExtraBold';
+}
+
+.input-border-red:invalid {
+  border:1px solid #dd2e2e;
+}
